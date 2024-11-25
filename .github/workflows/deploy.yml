@@ -1,10 +1,9 @@
-name: Deploy react app to github pages
+name: Deploy React App to GitHub Pages
 
 on:
-  workflow_dispatch:
   push:
-  branches:
-    - main
+    branches:
+      - main
 
 jobs:
   deploy:
@@ -14,7 +13,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Set Up Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 16
@@ -25,7 +24,7 @@ jobs:
       - name: Build Project
         run: npm run build
 
-      - name: Deploy to Github Pages
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
