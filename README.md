@@ -1,3 +1,3 @@
-# learning-html-canvas-react
+# html-canvas-react
 
 Stack: React + TypeScript + Vite

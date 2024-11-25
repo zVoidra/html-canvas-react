@@ -3,6 +3,6 @@ import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/learning-html-canvas-react/",
+  base: "/html-canvas-react/",
   plugins: [react()],
 });
