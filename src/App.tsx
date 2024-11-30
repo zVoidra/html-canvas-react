@@ -1,5 +1,5 @@
 import "./App.css";
-import Sol from "./components/Sol/sol";
+import Sol from "./components/Sol/Sol";
 
 function App() {
   return (
