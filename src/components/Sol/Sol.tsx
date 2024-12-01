@@ -10,9 +10,6 @@ export default function Sol() {
   const animationFrameId = useRef<number | null>(null);
 
   function setImageSources() {
-    // sun.src = "assets/canvas_sun.png";
-    // moon.src = "assets/canvas_moon.png";
-    // earth.src = "assets/canvas_earth.png";
     sun.src = sunImage;
     moon.src = moonImage;
     earth.src = earthImage;
