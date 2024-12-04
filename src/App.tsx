@@ -2,6 +2,7 @@ import Clock from "./components/Clock/Clock";
 import Sol from "./components/Sol/Sol";
 import Panorama from "./components/Panorama/Panorama";
 import "./App.css";
+import Line from "./components/Lines/Lines";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Sol />
       <Clock />
       <Panorama />
+      <h1>Lines</h1>
+      <Line />
     </div>
   );
 }
