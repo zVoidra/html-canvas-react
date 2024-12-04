@@ -25,7 +25,6 @@ export default function Sol() {
     setImageSources();
 
     const draw = () => {
-      console.log("Draw");
       context.globalCompositeOperation = "destination-over";
       context.clearRect(0, 0, 300, 300);
 
